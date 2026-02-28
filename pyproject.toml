@@ -1,0 +1,15 @@
+[project]
+name = "ai-tanchishe"
+version = "0.1.0"
+description = "贪吃蛇 Python 版游戏，Pygame 实现。"
+authors = [ { name = "chaoschan1989" } ]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["pygame>=2.0"]
+license = "MIT"
+
+[tool.setuptools]
+packages = ["."]
+
+[tool.setuptools.packages.find]
+where = ["."]
